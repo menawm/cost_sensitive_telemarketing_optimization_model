@@ -1,15 +1,28 @@
 
-## 1. Executive Summary
+## Executive Summary
 
-Telemarketing remains a critical acquisition channel, but its effectiveness is limited by low conversion rates (~11%) and inefficient, volume-based outreach strategies. The current approach drives high operational costs while failing to maximize revenue potential.
+Telemarketing remains an important acquisition channel, but its effectiveness is constrained by low conversion rates (~11%) and inefficient, high-volume outreach. This results in unnecessary operational costs and missed opportunities to focus on high-value customers.
 
-To address this, we developed a machine learning–driven targeting system that identifies and prioritizes high-probability customers before outreach. The final model, a stacked ensemble of KNN, SVM, and Random Forest, achieves ~99.97% accuracy with near-perfect sensitivity, enabling highly precise customer targeting.
+To address this, a **machine learning–driven targeting model** was developed to identify customers most likely to convert before outreach. Multiple models were evaluated, including Logistic Regression, KNN, SVM, Decision Tree, and Random Forest.
 
-This approach reduces call volume by **~85%** and operational costs by **~90%**, while maintaining nearly all conversion opportunities. By shifting from broad outreach to precision targeting, the bank generates **$2,776 in net profit from $694 in spend**, demonstrating a significant improvement in return on marketing investment.
+The final solution uses a **stacked ensemble model (KNN, SVM, Random Forest)**, selected for its strong performance across key metrics:
+- **Accuracy:** ~99.97%  
+- **Sensitivity (Recall):** Near-perfect (captures almost all potential converters)  
+- **False Positives:** ~0 (minimizes wasted calls)
 
-Beyond immediate financial gains, the model establishes a scalable, data-driven decision system that improves resource allocation, enhances customer experience, and enables more effective campaign strategy. It transforms telemarketing from a cost-intensive function into a high-efficiency growth lever.
+This model was chosen because it balances **high conversion capture** with **minimal unnecessary outreach**, which is critical for maximizing ROI in a cost-sensitive setting.
 
-We recommend deploying the model as a lead scoring system within the bank’s CRM to drive targeted outreach, improve conversion efficiency, and support long-term, data-driven growth.
+This approach significantly improves efficiency by reducing unnecessary outreach while preserving revenue potential. Key outcomes include:
+- **~85% reduction in call volume**
+- **~90% reduction in operational costs**
+- Minimal loss of conversion opportunities  
+
+From a financial perspective, the model demonstrates strong impact:
+- **Cost:** $694  
+- **Revenue:** $3,470  
+- **Net Profit:** $2,776 (~4x ROI)
+
+Overall, this project shows how shifting from volume-based outreach to **targeted, data-driven decision-making** can improve efficiency, reduce costs, and enhance the effectiveness of telemarketing campaigns.
 
 ---
 
